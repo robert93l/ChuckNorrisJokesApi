@@ -53,7 +53,6 @@ class MainActivity : AppCompatActivity() {
                     DividerItemDecoration.VERTICAL
                 )
             )
-
             setHasFixedSize(true)
         }
 

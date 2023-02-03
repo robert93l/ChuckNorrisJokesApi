@@ -31,10 +31,8 @@ class JokeAdapter() :
 
     override fun getItemCount() = jokes.size
 
-    fun submitList(/*jokes*/newJokes: List<JokesResult>) {
-        /* this.jokes = jokes
-         Log.d("JokeAdapter", "submitList called, new jokes list size: ${jokes.size}")
-         notifyDataSetChanged()*/
+   fun submitList(newJokes: List<JokesResult>) {
+
         val diffResult = DiffUtil.calculateDiff(JokesDiffUtilCallback(jokes, newJokes))
         jokes = newJokes
         Log.d("JokeAdapter", "submitList called, new jokes list size: ${newJokes.size}")
