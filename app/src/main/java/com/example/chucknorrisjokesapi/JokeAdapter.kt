@@ -50,7 +50,6 @@ class JokeAdapter() :
         }
 
         override fun getOldListSize(): Int = oldJokes.size
-
         override fun getNewListSize(): Int = newJokes.size
 
         override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {

@@ -34,10 +34,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun refreshswipe() {
         binding.swipechuck.setOnRefreshListener {
-
             setupRecyclerView()
             observeJokeData()
-
             binding.swipechuck.isRefreshing = false
         }
     }
@@ -47,12 +45,7 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerviewChuckNorris.apply {
             adapter = adapterchuck
             layoutManager = LinearLayoutManager(this@MainActivity)
-            addItemDecoration(
-                DividerItemDecoration(
-                    this@MainActivity,
-                    DividerItemDecoration.VERTICAL
-                )
-            )
+
             setHasFixedSize(true)
         }
 

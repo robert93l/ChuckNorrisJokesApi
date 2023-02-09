@@ -17,11 +17,6 @@ object AppModule {
     @Provides
     fun provideBaseUrl() = Constants.BASE_URL
 
-    /* val gson = GsonBuilder()
-         .setLenient()
-         .create()*/
-
-
     @Provides
     @Singleton
     fun provideRetrofitInstance(BASE_URL: String): ChuckNorrisApi =
