@@ -24,7 +24,14 @@ class MainActivity : AppCompatActivity() {
         observeJokeData()
         viewModel.fetchJoke()
         refreshswipe()
+        floatingButtonUp()
 
+    }
+
+    private fun floatingButtonUp() {
+        binding.fab.setOnClickListener {
+            binding.recyclerviewChuckNorris.scrollToPosition(0)
+        }
     }
 
     private fun refreshswipe() {
