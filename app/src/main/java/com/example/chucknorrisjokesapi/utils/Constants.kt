@@ -1,4 +1,4 @@
-package com.example.chucknorrisjokesapi
+package com.example.chucknorrisjokesapi.utils
 
 object Constants {
 

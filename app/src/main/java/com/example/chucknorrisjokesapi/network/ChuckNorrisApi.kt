@@ -1,4 +1,4 @@
-package com.example.chucknorrisjokesapi
+package com.example.chucknorrisjokesapi.network
 
 import com.example.chucknorrisjokesapi.data.ChuckNorrisModel
 import retrofit2.Response

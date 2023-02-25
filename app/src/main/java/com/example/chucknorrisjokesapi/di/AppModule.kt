@@ -1,6 +1,7 @@
-package com.example.chucknorrisjokesapi
+package com.example.chucknorrisjokesapi.di
 
-import com.google.gson.GsonBuilder
+import com.example.chucknorrisjokesapi.network.ChuckNorrisApi
+import com.example.chucknorrisjokesapi.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

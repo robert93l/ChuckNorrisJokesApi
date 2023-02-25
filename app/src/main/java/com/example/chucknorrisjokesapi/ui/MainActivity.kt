@@ -1,15 +1,10 @@
-package com.example.chucknorrisjokesapi
+package com.example.chucknorrisjokesapi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import androidx.activity.viewModels
-import androidx.lifecycle.Observer
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.chucknorrisjokesapi.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
